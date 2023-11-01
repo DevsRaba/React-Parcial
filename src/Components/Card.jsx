@@ -1,9 +1,15 @@
-const Card = ({name}) => {
-  console.log(name);
+import React from "react";
+
+const Card = ({ name, breed }) => {
   return (
-    <div style={{color: "black", backgroundColor: "gray"}}>
-      <h3>Hola, soy la tarjeta {name}</h3>
-      <hr />
+    <div className="card">
+      <h2>Datos de la mascota</h2>
+      <p>
+        <strong>Nombre:</strong> {name}
+      </p>
+      <p>
+        <strong>Raza:</strong> {breed}
+      </p>
     </div>
   );
 };

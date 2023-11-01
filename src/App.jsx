@@ -29,6 +29,7 @@ function App() {
             type="text"
             id="petName"
             value={petName}
+            placeholder="Nombre de tu mascota"
             onChange={(e) => setPetName(e.target.value)}
           />
         </div>
@@ -39,6 +40,7 @@ function App() {
             type="text"
             id="petBreed"
             value={petBreed}
+            placeholder="Raza de tu mascota"
             onChange={(e) => setPetBreed(e.target.value)}
           />
         </div>

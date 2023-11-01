@@ -7,6 +7,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   background: #a386e472;
+  margin-top: 100px;
 }
 
 form {
@@ -40,7 +41,7 @@ button:hover {
 }
 
 p {
-  color: rgb(255, 255, 255);
+  color: rgba(255, 0, 0, 0.679);
   margin-top: 10px;
   font-size: 0.9em;
 }
@@ -49,7 +50,7 @@ p {
 .card {
   margin-top: 20px;
   padding: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   background: #5220667b;
 }
@@ -60,6 +61,7 @@ p {
 }
 
 .card p {
+  color: white;
   margin: 5px 0;
 }
 

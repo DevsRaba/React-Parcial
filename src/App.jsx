@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Card from "./Components/Card";
-import './App';
+import './App.css';
 
 function App() {
   const [petName, setPetName] = useState("");
@@ -23,7 +23,7 @@ function App() {
       <h1>MASCOTAPP</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="petName">Nombre de la mascota:</label>
+          <label htmlFor="petName">Nombre</label>
           <br />
           <input
             type="text"
@@ -33,7 +33,7 @@ function App() {
           />
         </div>
         <div>
-          <label htmlFor="petBreed">Raza de la mascota:</label>
+          <label htmlFor="petBreed">Raza</label>
           <br />
           <input
             type="text"
